@@ -134,32 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_AudioParam.xml \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVACFS_Configuration.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_bt_bt.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_bt_bt.bin \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_hsmic_hs.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_hsmic_hs.bin \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_mic_hp.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_mic_hp.bin \
@@ -230,8 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/etc/init/vendor.oplus.hardware.olc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.olc@2.0-service.rc \
     vendor/oplus/mt6893-common/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/oplus/mt6893-common/proprietary/odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.performance@1.0-service.rc \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/media_codecs_ffmpeg.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_ffmpeg.xml \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/media_codecs_vendor_oplus.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_vendor_oplus.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oplus/mt6893-common/proprietary/odm/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_ODM)/etc/nfc/nfc_conf_ref \
@@ -251,29 +223,16 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
     vendor/oplus/mt6893-common/proprietary/odm/lib/android.hardware.keymaster-V3-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.keymaster-V3-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/lib_aurisys_lvimfs.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib/libbsproxy.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib/libdav1d.so.4 \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib/libdla_loader.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_utils.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib/libnxprecord.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpsmartpaparser.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libnxpspeech.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpspeech.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libolc_vnd.so:$(TARGET_COPY_OUT_ODM)/lib/libolc_vnd.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libosensehalclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib/libwvhdcpext.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
@@ -297,21 +256,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_aurisys_lvimfs.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libadsprpc.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib64/libavformat.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libavutil.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdla_loader_ins.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader_ins.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libdpservice.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G6.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G7.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwm-oplus.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_ODM)/lib64/libneuron_runtime.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxprecord.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxpsmartpaparser.so \
@@ -321,12 +271,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhdcpext.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
@@ -444,123 +390,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/FV-SAM-MTK2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/FV-SAM-MTK2.dat \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2238:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2238 \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/apdb/APDB_MT6885_S01__W2238_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6885_S01__W2238_ENUM \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml \
@@ -670,8 +502,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
@@ -721,12 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorSave.so \
@@ -739,7 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
@@ -841,7 +664,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
@@ -872,7 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
@@ -1008,7 +829,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libainrcore.so \
@@ -1116,7 +936,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
@@ -1152,7 +971,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
@@ -1276,3 +1094,43 @@ PRODUCT_PACKAGES += \
     manifest_oplus_charger \
     manifest_oplus_fingerprint \
     manifest_oplus_performance
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_libGLES_mali_symlink32 \
+    kmsetkey.trustonic_kmsetkey.default_symlink32 \
+    libMcGatekeeper_gatekeeper.trustonic_symlink32 \
+    libSoftGatekeeper_gatekeeper.default_symlink32 \
+    android.hardware.graphics.allocator@4.0-impl-mediatek_android.hardware.graphics.allocator@4.0-impl-mediatek_symlink32 \
+    android.hardware.graphics.mapper@4.0-impl-mediatek_android.hardware.graphics.mapper@4.0-impl-mediatek_symlink32 \
+    vulkan.mali_vulkan.mali_symlink32 \
+    arm.graphics-V1-ndk_platform_arm.graphics-V1-ndk_platform_symlink32 \
+    arm.graphics-ndk_platform_arm.graphics-ndk_platform_symlink32 \
+    libaiselector_libaiselector_symlink32 \
+    libdpframework_libdpframework_symlink32 \
+    libgpudataproducer_libgpudataproducer_symlink32 \
+    libmtk_drvb_libmtk_drvb_symlink32 \
+    libneuron_platform.vpu_libneuron_platform.vpu_symlink32 \
+    libnir_neon_driver_libnir_neon_driver_symlink32 \
+    libpq_prot_libpq_prot_symlink32 \
+    libGLES_mali_libGLES_mali_symlink64 \
+    kmsetkey.trustonic_kmsetkey.default_symlink64 \
+    libMcGatekeeper_gatekeeper.trustonic_symlink64 \
+    libSoftGatekeeper_gatekeeper.default_symlink64 \
+    android.hardware.graphics.allocator@4.0-impl-mediatek_android.hardware.graphics.allocator@4.0-impl-mediatek_symlink64 \
+    android.hardware.graphics.mapper@4.0-impl-mediatek_android.hardware.graphics.mapper@4.0-impl-mediatek_symlink64 \
+    vulkan.mali_vulkan.mali_symlink64 \
+    arm.graphics-V1-ndk_platform_arm.graphics-V1-ndk_platform_symlink64 \
+    arm.graphics-ndk_platform_arm.graphics-ndk_platform_symlink64 \
+    libDR_libDR_symlink64 \
+    libaiselector_libaiselector_symlink64 \
+    libdpframework_libdpframework_symlink64 \
+    libgpudataproducer_libgpudataproducer_symlink64 \
+    libmcv_runtime.mtk_libmcv_runtime.mtk_symlink64 \
+    libmdla_ut_libmdla_ut_symlink64 \
+    libmnl_libmnl_symlink64 \
+    libmtk_drvb_libmtk_drvb_symlink64 \
+    libneuron_platform.vpu_libneuron_platform.vpu_symlink64 \
+    libneuron_runtime.5_libneuron_runtime.5_symlink64 \
+    libneuron_runtime_ibneuron_runtime_symlink64 \
+    libnir_neon_driver_libnir_neon_driver_symlink64 \
+    libpq_prot_libpq_prot_symlink64
