@@ -217,7 +217,7 @@ prebuilt_etc_xml {
 
 install_symlink {
 	name: "libGLES_mali_libGLES_mali_symlink32",
-	installed_location: "vendor/lib/egl/libGLES_mali.so",
+	installed_location: "lib/egl/libGLES_mali.so",
 	symlink_target: "/vendor/lib/egl/mt6893/libGLES_mali.so",
 }
 install_symlink {
