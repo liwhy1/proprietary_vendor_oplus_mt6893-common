@@ -1150,8 +1150,8 @@ PRODUCT_PACKAGES += \
     manifest_oplusSensor.xml \
     manifest_oplus_charger.xml \
     manifest_oplus_fingerprint.xml \
-    manifest_oplus_performance.xml \
-    vendor.oplus.hardware.olc@2.0-service.xml
+    vendor.oplus.hardware.olc@2.0-service.xml \
+    manifest_oplus_performance.xml
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libGLES_mali_symlink32 \
