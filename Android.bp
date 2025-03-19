@@ -491,4 +491,3 @@ install_symlink {
 	installed_location: "lib64/libpq_prot.so",
 	symlink_target: "/vendor/lib64/mt6893/libpq_prot.so",
 }
-
