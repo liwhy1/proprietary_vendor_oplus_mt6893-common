@@ -841,22 +841,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_performance.xml
 
 PRODUCT_PACKAGES += \
-    libGLES_mali_libGLES_mali_symlink32 \
-    kmsetkey.trustonic_kmsetkey.default_symlink32 \
-    libMcGatekeeper_gatekeeper.trustonic_symlink32 \
-    libSoftGatekeeper_gatekeeper.default_symlink32 \
-    android.hardware.graphics.allocator@4.0-impl-mediatek_android.hardware.graphics.allocator@4.0-impl-mediatek_symlink32 \
-    android.hardware.graphics.mapper@4.0-impl-mediatek_android.hardware.graphics.mapper@4.0-impl-mediatek_symlink32 \
-    vulkan.mali_vulkan.mali_symlink32 \
-    arm.graphics-V1-ndk_platform_arm.graphics-V1-ndk_platform_symlink32 \
-    arm.graphics-ndk_platform_arm.graphics-ndk_platform_symlink32 \
-    libaiselector_libaiselector_symlink32 \
-    libdpframework_libdpframework_symlink32 \
-    libgpudataproducer_libgpudataproducer_symlink32 \
-    libmtk_drvb_libmtk_drvb_symlink32 \
-    libneuron_platform.vpu_libneuron_platform.vpu_symlink32 \
-    libnir_neon_driver_libnir_neon_driver_symlink32 \
-    libpq_prot_libpq_prot_symlink32 \
     libGLES_mali_libGLES_mali_symlink64 \
     kmsetkey.trustonic_kmsetkey.default_symlink64 \
     libMcGatekeeper_gatekeeper.trustonic_symlink64 \
