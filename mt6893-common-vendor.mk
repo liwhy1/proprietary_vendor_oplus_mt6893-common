@@ -306,7 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/oplus/mt6893-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/oplus/mt6893-common/proprietary/system_ext/etc/public.libraries-oplus.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-oplus.txt \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
@@ -569,18 +568,11 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_soft_mtk_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_wmadec.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanager.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanagerwrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagebuffer_wrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmidasserviceintf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmidasserviceintf.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
