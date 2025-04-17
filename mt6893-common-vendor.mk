@@ -822,7 +822,6 @@ PRODUCT_PACKAGES += \
     libtranslator_mdmi_v2.8.2 \
     arm.graphics-V1-ndk_platform \
     libktvns \
-    android.hardware.keymaster-V3-ndk_platform \
     libaaa_ltm \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     libgpu_aux \

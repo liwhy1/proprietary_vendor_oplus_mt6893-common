@@ -3893,26 +3893,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.keymaster-V3-ndk_platform",
-    owner: "oplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: ["proprietary/odm/lib/android.hardware.keymaster-V3-ndk_platform.so"],
-        },
-        android_arm64: {
-            srcs: ["proprietary/odm/lib64/android.hardware.keymaster-V3-ndk_platform.so"],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaaa_ltm",
     owner: "oplus",
     strip: {
