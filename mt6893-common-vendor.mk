@@ -10,16 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/oplus/mt6893-common/proprietary/etc/public.libraries-mtk.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-mtk.txt \
     vendor/oplus/mt6893-common/proprietary/etc/public.libraries-trustonic.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-trustonic.txt \
-    vendor/oplus/mt6893-common/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
-    vendor/oplus/mt6893-common/proprietary/lib/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oplus.hardware.performance@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
-    vendor/oplus/mt6893-common/proprietary/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/mt6893-common/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oplus/mt6893-common/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
     vendor/oplus/mt6893-common/proprietary/odm/bin/hw/vendor.oplus.hardware.olc@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.olc@2.0-service \
@@ -248,104 +238,34 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/android.hardware.keymaster-V3-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.keymaster-V3-ndk_platform.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/lib_aurisys_lvimfs.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib/libbsproxy.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib/libdav1d.so.4 \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib/libdla_loader.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_utils.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib/libnxprecord.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpsmartpaparser.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libnxpspeech.so:$(TARGET_COPY_OUT_ODM)/lib/libnxpspeech.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libolc_vnd.so:$(TARGET_COPY_OUT_ODM)/lib/libolc_vnd.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libosensehalclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib/libwvhdcpext.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.olc@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.olc@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.capacitive.hal.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/android.hardware.keymaster-V3-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.keymaster-V3-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_aurisys_lvimfs.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libadsprpc.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib64/libavformat.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libavutil.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdla_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libdla_loader_ins.so:$(TARGET_COPY_OUT_ODM)/lib64/libdla_loader_ins.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libdpservice.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G6.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G7.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwm-oplus.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_ODM)/lib64/libneuron_runtime.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libnxprecord.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxprecord.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libnxpsmartpaparser.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxpsmartpaparser.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libnxpspeech.so:$(TARGET_COPY_OUT_ODM)/lib64/libnxpspeech.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libolc_vnd.so:$(TARGET_COPY_OUT_ODM)/lib64/libolc_vnd.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libwvhdcpext.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhdcpext.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engineer@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.olc@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/vendor.oplus.hardware.subsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.subsys-V1-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/oplus/mt6893-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/oplus/mt6893-common/proprietary/system_ext/etc/public.libraries-oplus.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-oplus.txt \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
@@ -359,10 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/oplus/mt6893-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/system_ext/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/oplus/mt6893-common/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
     vendor/oplus/mt6893-common/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
@@ -568,94 +485,10 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AV1SecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcGatekeeper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6893/vulkan.mali.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorSave.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bsscore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaaa_ltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaaa_ltm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaaa_ltmx.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libappgamepq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw_batch.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_engineer_test.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiocomponentenginec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentenginec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
@@ -668,100 +501,24 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcustomer_testvision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustomer_testvision.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgamehdr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheichal.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanager.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanagerwrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libhwconfigurationutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwconfigurationutil.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagebuffer_wrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgsensorca.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktvdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvdrc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktveffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktveffect.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktveffect_rec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktveffect_rec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktveq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktveq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktvns.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvns.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktvreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvreverb.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktvsoundtouch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvsoundtouch.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libktvvolume.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvvolume.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblpcnr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfllcore.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmidasserviceintf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmidasserviceintf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsnr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_graph_delegate.mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_wrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/liboppo_arcSoftBokehEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_arcSoftBokehEngine.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mdmi_v2.8.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_utils.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
@@ -770,300 +527,66 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-V1-ndk_platform.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/arm.graphics-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-ndk_platform.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libaiselector.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libdpframework.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libgpudataproducer.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libmtk_drvb.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libneuron_platform.vpu.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libnir_neon_driver.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libpq_prot.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.15.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/APUWareHmpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareHmpServer.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AV1SecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6893/libGLES_mali.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/hwcomposer.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcGatekeeper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/mt6893/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6893/vulkan.mali.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/sensors.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6893.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSensorSave.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaaa_ltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_ltmx.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidepth_tuning.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libainrcore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaispq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn_ndk.mtk.vndk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_engineer_test.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiocomponentenginec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentenginec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocustparam_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiodcrflt_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofmtconv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioloudc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcustomer_testvision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustomer_testvision.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgamehdr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwconfigurationutil.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm-oplus.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_pipe.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsensorca.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispcameraca.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktvdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktvdrc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktveffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktveffect.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktveffect_rec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktveffect_rec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktveq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktveq.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktvns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktvns.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktvreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktvreverb.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktvsoundtouch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktvsoundtouch.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libktvvolume.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libktvvolume.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_wrapper.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver_ndk.mtk.vndk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/liboppo_arcSoftBokehEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_arcSoftBokehEngine.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v30.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/arm.graphics-V1-ndk_platform.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/arm.graphics-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/arm.graphics-ndk_platform.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libDR.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libaiselector.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libdpframework.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libgpudataproducer.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libmcv_runtime.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libmcv_runtime.mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libmdla_ut.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libmdla_ut.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libmnl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libmtk_drvb.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libneuron_platform.vpu.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libneuron_runtime.5.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libneuron_runtime.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libnir_neon_driver.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libpq_prot.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@7.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.clientapi@1.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.0.so \
@@ -1073,45 +596,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.1.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.2.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.log@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.4.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.5.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.6.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.10.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.11.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.12.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.13.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.14.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.15.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.7.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.performance@1.0.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
 
 PRODUCT_PACKAGES += \
     EngineerMode \
@@ -1180,4 +667,256 @@ PRODUCT_PACKAGES += \
     libneuron_runtime.5_libneuron_runtime.5_symlink64 \
     libneuron_runtime_ibneuron_runtime_symlink64 \
     libnir_neon_driver_libnir_neon_driver_symlink64 \
-    libpq_prot_libpq_prot_symlink64
+    libpq_prot_libpq_prot_symlink64 \
+    libainrcore \
+    libaudiotoolkit_vendor \
+    libtlcWidevineModularDrm \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
+    vendor.mediatek.hardware.mms@1.1 \
+    libavutil \
+    libmmprofile \
+    liburee_meta_drmkeyinstall \
+    libNoFpsActor \
+    libavformat \
+    vendor.oplus.hardware.appradio@1.0 \
+    libpq_cust_base \
+    vendor.mediatek.hardware.keymaster_attestation@1.1 \
+    vendor.mediatek.hardware.pq@2.12 \
+    libaudiocomponentengine_vendor \
+    libpkm \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
+    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
+    libMEOW_data \
+    android.hardware.bluetooth@1.1-impl-mediatek \
+    libpqparamparser \
+    libwvdrmengine \
+    android.hardware.audio@7.0-impl-mediatek \
+    libcvsd_mtk \
+    libccci_util \
+    libgralloc_extra \
+    libspeech_enh_lib \
+    vendor.oplus.hardware.performance@1.0 \
+    libviagpsrpc \
+    libion_ulit \
+    libneuron_platform.vpu \
+    libbluetooth_mtk_pure \
+    libOpenCL \
+    libaudiodcrflt_vendor \
+    AV1SecureVdecCA \
+    vendor.oplus.hardware.commondcs@1.0 \
+    libaal_key \
+    vendor.mediatek.hardware.mms@1.2 \
+    libaudio_param_parser-vnd \
+    vendor.oplus.hardware.ims@1.0 \
+    libapu_mdw \
+    libktveffect \
+    vendor.mediatek.hardware.pq@2.2 \
+    libminiui \
+    lib_iir \
+    libaudiocompensationfilterc \
+    libgpud \
+    libcares_naptr \
+    libapusys_edma \
+    vendor.mediatek.hardware.pq@2.5 \
+    libGLES_meow \
+    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
+    libjpeg-alpha_vendor \
+    librpmbengclient \
+    vendor.mediatek.hardware.pq@2.6 \
+    libbluetoothem_mtk \
+    libpqpconfig \
+    libgralloc_metadata \
+    libbessound_hd_mtk_vendor \
+    vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk \
+    libmfllcore \
+    vendor.mediatek.hardware.pq@2.4 \
+    vendor.mediatek.hardware.mms@1.6 \
+    libapmonitor_vendor \
+    lib_aurisys_lvimfs \
+    libmsbc_mtk \
+    libaal_mtk \
+    libimageio_plat_drv \
+    libosensehalclient \
+    libaudiocustparam_vendor \
+    libktvvolume \
+    vendor.mediatek.hardware.apmonitor@2.0 \
+    liblpcnr \
+    libGLES_mali \
+    libktveq \
+    libneuroeara \
+    libcmdl_ndk.mtk.vndk \
+    librgbwlightsensor \
+    vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.nvram@1.1-impl \
+    libaalservice \
+    libgpudataproducer \
+    libneuron_runtime \
+    libavcodec \
+    libudf \
+    libspeechparser_vendor \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    libnxprecord \
+    vendor.mediatek.hardware.pq@2.0 \
+    libthha \
+    libcarrierconfig \
+    vendor.mediatek.hardware.audio@6.1 \
+    libFrameRecord \
+    libgralloctypes_mtk \
+    libktveffect_rec \
+    libMEOW_qt \
+    vendor.mediatek.hardware.mms@1.0 \
+    libaudioloudc \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
+    libnvram_sec \
+    libimgsensorca \
+    libsimlock \
+    vendor.oplus.hardware.olc@2.0 \
+    vendor.mediatek.hardware.mtkradioex@3.0 \
+    libSensorSave \
+    vendor.mediatek.hardware.audio@7.1 \
+    libpqframework \
+    vendor.mediatek.hardware.pq@2.15 \
+    vendor.mediatek.hardware.pq@2.7 \
+    libaedv \
+    libimageio \
+    liboemcrypto \
+    libneuropilot_hal_utils \
+    libblisrc32_vendor \
+    libhwconfigurationutil \
+    libhevce_sb.ca7.android \
+    vendor.oplus.hardware.osense.client@1.0 \
+    libimageio_plat_pipe \
+    arm.graphics-ndk_platform \
+    vendor.oplus.hardware.charger@1.0 \
+    libsimmelock \
+    libscltm \
+    vendor.mediatek.hardware.keymaster_attestation@1.0 \
+    libaudio_engineer_test \
+    vendor.mediatek.hardware.pq@2.15-impl \
+    libbwc \
+    gps.default \
+    libapu_mdw_batch \
+    libneuron_wrapper \
+    vulkan.mali \
+    libAVCSecureVencCA \
+    libdpframework \
+    libwvhdcpext \
+    android.hardware.audio@6.0-impl-mediatek \
+    vendor.mediatek.hardware.mms@1.6-impl \
+    libsensorndkbridge-v30 \
+    libmtk_drvb \
+    libem_support_jni \
+    librt_extamp_intf \
+    libvpu \
+    libaudiocomponentenginec \
+    libaaa_ltmx \
+    libDefaultFpsActor \
+    libpnscr2 \
+    libnxp_extamp_intf \
+    librpc \
+    libheichal \
+    libormshalclient \
+    libswscale \
+    libion_mtk \
+    libbluetooth_hw_test \
+    vendor.mediatek.hardware.nvram@1.0 \
+    libwvhidl \
+    libbt-vendor \
+    lib_bsscore \
+    libdav1d.so.4 \
+    vendor.oplus.hardware.mtkmodemaci@1.0 \
+    vendor.mediatek.hardware.mmagent@1.0 \
+    vendor.mediatek.hardware.pq@2.14 \
+    thermal_hal \
+    libaudioprimarydevicehalifclient \
+    libneuron_graph_delegate.mtk \
+    HEVCSecureVdecCA \
+    libgamehdr \
+    libMEOW_trace \
+    libtranslator_mdmi_v2.8.2 \
+    arm.graphics-V1-ndk_platform \
+    libktvns \
+    android.hardware.keymaster-V3-ndk_platform \
+    libaaa_ltm \
+    vendor.mediatek.hardware.apuware.utils@2.0 \
+    libgpu_aux \
+    libbluetooth_audio_session_mediatek \
+    libnir_neon_driver \
+    libaiselector \
+    libhwm-oplus \
+    libjpeg-alpha-oal_vendor \
+    libmtcloader \
+    libdla_loader \
+    libaispq \
+    libmsnr \
+    kmsetkey.trustonic \
+    liboppo_arcSoftBokehEngine \
+    libcustomer_testvision \
+    libaurisysdemo \
+    vendor.mediatek.hardware.pq@2.8 \
+    vendor.mediatek.hardware.pq@2.10 \
+    libktvsoundtouch \
+    libnxpsmartpaparser \
+    AVCSecureVdecCA \
+    libktvdrc \
+    vendor.oplus.hardware.oplusSensor@1.0 \
+    libMcGatekeeper \
+    libdpservice \
+    libvcodec_oal \
+    libbluetooth_relayer \
+    vendor.oplus.hardware.radio-V1-ndk_platform \
+    libtranslator_mapi_v3.0 \
+    libpixelflinger \
+    libnxpspeech \
+    vendor.mediatek.hardware.pq@2.3 \
+    libadsprpc \
+    libhdrvideo \
+    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
+    libaudiocompensationfilter_vendor \
+    libvcodecdrv_header_stub \
+    audio_common-aidl-cpp \
+    libcmdl \
+    libdecrypt \
+    vendor.oplus.hardware.orms@1.0 \
+    libapusys \
+    libJpgEncPipe \
+    audio.primary.mt6893 \
+    libswresample \
+    vendor.mediatek.hardware.mdmonitor@1.0 \
+    vendor.mediatek.hardware.mtkradioex.se-V1-ndk \
+    libaudiofmtconv \
+    libMEOW_gift \
+    audio.r_submix.mt6893 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.pq@2.13 \
+    libicd_decoder \
+    vendor.mediatek.hardware.nvram@1.1 \
+    libbluetooth_mtk \
+    libolc_vnd \
+    libtrustonic_keybox_ca \
+    libktvreverb \
+    libSoftGatekeeper \
+    libpq_prot \
+    libcapctrl \
+    vendor.mediatek.hardware.pq@2.9 \
+    libcustom_nvram \
+    libaal_cust \
+    VP9SecureVdecCA \
+    libladder \
+    libipsec_ims_shr \
+    android.hardware.graphics.allocator@4.0-impl-mediatek \
+    libbsproxy \
+    libappgamepq \
+    vendor.mediatek.hardware.mms@1.5 \
+    libsysenv \
+    libformatter \
+    libmml \
+    vendor.mediatek.hardware.pq@2.1 \
+    libnvram \
+    libtranslator_utils \
+    vendor.mediatek.hardware.pq@2.11 \
+    libvpu5 \
+    lib_speech_enh 
