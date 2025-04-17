@@ -672,7 +672,6 @@ PRODUCT_PACKAGES += \
     libaudiotoolkit_vendor \
     libtlcWidevineModularDrm \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    vendor.mediatek.hardware.mms@1.1 \
     libavutil \
     libmmprofile \
     liburee_meta_drmkeyinstall \
@@ -681,12 +680,10 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.appradio@1.0 \
     libpq_cust_base \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.pq@2.12 \
     libaudiocomponentengine_vendor \
     libpkm \
     vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.netdagent@1.0 \
-    vendor.mediatek.hardware.mms@1.3 \
     vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
     libMEOW_data \
     android.hardware.bluetooth@1.1-impl-mediatek \
@@ -707,32 +704,26 @@ PRODUCT_PACKAGES += \
     AV1SecureVdecCA \
     vendor.oplus.hardware.commondcs@1.0 \
     libaal_key \
-    vendor.mediatek.hardware.mms@1.2 \
     libaudio_param_parser-vnd \
     vendor.oplus.hardware.ims@1.0 \
     libapu_mdw \
     libktveffect \
-    vendor.mediatek.hardware.pq@2.2 \
     libminiui \
     lib_iir \
     libaudiocompensationfilterc \
     libgpud \
     libcares_naptr \
     libapusys_edma \
-    vendor.mediatek.hardware.pq@2.5 \
     libGLES_meow \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     libjpeg-alpha_vendor \
     librpmbengclient \
-    vendor.mediatek.hardware.pq@2.6 \
     libbluetoothem_mtk \
     libpqpconfig \
     libgralloc_metadata \
     libbessound_hd_mtk_vendor \
     vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk \
     libmfllcore \
-    vendor.mediatek.hardware.pq@2.4 \
-    vendor.mediatek.hardware.mms@1.6 \
     libapmonitor_vendor \
     lib_aurisys_lvimfs \
     libmsbc_mtk \
@@ -758,7 +749,6 @@ PRODUCT_PACKAGES += \
     libspeechparser_vendor \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     libnxprecord \
-    vendor.mediatek.hardware.pq@2.0 \
     libthha \
     libcarrierconfig \
     vendor.mediatek.hardware.audio@6.1 \
@@ -766,7 +756,6 @@ PRODUCT_PACKAGES += \
     libgralloctypes_mtk \
     libktveffect_rec \
     libMEOW_qt \
-    vendor.mediatek.hardware.mms@1.0 \
     libaudioloudc \
     vendor.mediatek.hardware.bluetooth.audio@2.2 \
     libnvram_sec \
@@ -777,8 +766,6 @@ PRODUCT_PACKAGES += \
     libSensorSave \
     vendor.mediatek.hardware.audio@7.1 \
     libpqframework \
-    vendor.mediatek.hardware.pq@2.15 \
-    vendor.mediatek.hardware.pq@2.7 \
     libaedv \
     libimageio \
     liboemcrypto \
@@ -794,7 +781,6 @@ PRODUCT_PACKAGES += \
     libscltm \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     libaudio_engineer_test \
-    vendor.mediatek.hardware.pq@2.15-impl \
     libbwc \
     gps.default \
     libapu_mdw_batch \
@@ -804,7 +790,6 @@ PRODUCT_PACKAGES += \
     libdpframework \
     libwvhdcpext \
     android.hardware.audio@6.0-impl-mediatek \
-    vendor.mediatek.hardware.mms@1.6-impl \
     libsensorndkbridge-v30 \
     libmtk_drvb \
     libem_support_jni \
@@ -828,7 +813,6 @@ PRODUCT_PACKAGES += \
     libdav1d.so.4 \
     vendor.oplus.hardware.mtkmodemaci@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.pq@2.14 \
     thermal_hal \
     libaudioprimarydevicehalifclient \
     libneuron_graph_delegate.mtk \
@@ -855,8 +839,6 @@ PRODUCT_PACKAGES += \
     liboppo_arcSoftBokehEngine \
     libcustomer_testvision \
     libaurisysdemo \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.10 \
     libktvsoundtouch \
     libnxpsmartpaparser \
     AVCSecureVdecCA \
@@ -870,7 +852,6 @@ PRODUCT_PACKAGES += \
     libtranslator_mapi_v3.0 \
     libpixelflinger \
     libnxpspeech \
-    vendor.mediatek.hardware.pq@2.3 \
     libadsprpc \
     libhdrvideo \
     vendor.mediatek.hardware.videotelephony@1.0 \
@@ -890,8 +871,6 @@ PRODUCT_PACKAGES += \
     libaudiofmtconv \
     libMEOW_gift \
     audio.r_submix.mt6893 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.pq@2.13 \
     libicd_decoder \
     vendor.mediatek.hardware.nvram@1.1 \
     libbluetooth_mtk \
@@ -901,7 +880,6 @@ PRODUCT_PACKAGES += \
     libSoftGatekeeper \
     libpq_prot \
     libcapctrl \
-    vendor.mediatek.hardware.pq@2.9 \
     libcustom_nvram \
     libaal_cust \
     VP9SecureVdecCA \
@@ -910,13 +888,35 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     libbsproxy \
     libappgamepq \
-    vendor.mediatek.hardware.mms@1.5 \
     libsysenv \
     libformatter \
     libmml \
-    vendor.mediatek.hardware.pq@2.1 \
     libnvram \
     libtranslator_utils \
-    vendor.mediatek.hardware.pq@2.11 \
     libvpu5 \
-    lib_speech_enh 
+    lib_speech_enh \
+    vendor.mediatek.hardware.pq@2.0 \
+    vendor.mediatek.hardware.pq@2.1 \
+    vendor.mediatek.hardware.pq@2.2 \
+    vendor.mediatek.hardware.pq@2.3 \
+    vendor.mediatek.hardware.pq@2.4 \
+    vendor.mediatek.hardware.pq@2.5 \
+    vendor.mediatek.hardware.pq@2.6 \
+    vendor.mediatek.hardware.pq@2.7 \
+    vendor.mediatek.hardware.pq@2.8 \
+    vendor.mediatek.hardware.pq@2.9 \
+    vendor.mediatek.hardware.pq@2.10 \
+    vendor.mediatek.hardware.pq@2.11 \
+    vendor.mediatek.hardware.pq@2.12 \
+    vendor.mediatek.hardware.pq@2.13 \
+    vendor.mediatek.hardware.pq@2.14 \
+    vendor.mediatek.hardware.pq@2.15 \
+    vendor.mediatek.hardware.pq@2.15-impl \
+    vendor.mediatek.hardware.mms@1.0 \
+    vendor.mediatek.hardware.mms@1.1 \
+    vendor.mediatek.hardware.mms@1.2 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.mms@1.5 \
+    vendor.mediatek.hardware.mms@1.6 \
+    vendor.mediatek.hardware.mms@1.6-impl
