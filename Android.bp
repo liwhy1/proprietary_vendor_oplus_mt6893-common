@@ -2770,7 +2770,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuron_graph_delegate.mtk",
+	name: "libneuron_graph_delegate.mtk_vendor",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -4440,7 +4440,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.commondcs@1.0",
+	name: "vendor.oplus.hardware.commondcs@1.0_vendor",
 	owner: "oplus",
 	strip: {
 		none: true,

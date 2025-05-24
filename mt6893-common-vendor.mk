@@ -505,7 +505,7 @@ PRODUCT_PACKAGES += \
     libmsnr \
     libmtcloader \
     libneuroeara \
-    libneuron_graph_delegate.mtk \
+    libneuron_graph_delegate.mtk_vendor \
     libneuron_wrapper \
     libneuropilot_hal_utils \
     libnvram \
@@ -588,7 +588,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
-    vendor.oplus.hardware.commondcs@1.0 \
+    vendor.oplus.hardware.commondcs@1.0_vendor \
     vendor.oplus.hardware.performance@1.0 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
