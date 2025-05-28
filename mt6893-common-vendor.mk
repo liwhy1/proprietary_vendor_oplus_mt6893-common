@@ -903,4 +903,27 @@ PRODUCT_PACKAGES += \
     libneuron_runtime.5_libneuron_runtime.5_symlink64 \
     libneuron_runtime_ibneuron_runtime_symlink64 \
     libnir_neon_driver_libnir_neon_driver_symlink64 \
-    libpq_prot_libpq_prot_symlink64
+    libpq_prot_libpq_prot_symlink64 \
+    libffmpeg_omx \
+    libffmpeg_utils \
+    libpn553_fw \
+    libpn557_fw \
+    libsn100u_fw \
+    libavcodec \
+    libavformat \
+    libavutil \
+    libbsproxy \
+    libdav1d.4 \
+    libdla_loader \
+    libdla_loader_ins \
+    libdpservice \
+    librpmbengclient \
+    libswresample \
+    libswscale \
+    libaibc_tuning \
+    libaibc_tuning_p2 \
+    libaibc_tuning_p3 \
+    libaidepth_tuning \
+    libcodec2_hidl-mtk@1.1 \
+    libcodec2_hidl-mtk@1.2 \
+    libcodec2_soft_common-mtk
