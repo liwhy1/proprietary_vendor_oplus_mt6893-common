@@ -6766,8 +6766,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform_vendor",
-	stem: "vendor.oplus.hardware.radio-V1-ndk_platform",
+	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7039,8 +7038,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.keymaster-V3-ndk_platform_odm",
-	stem: "android.hardware.keymaster-V3-ndk_platform",
+	name: "android.hardware.keymaster-V3-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7441,7 +7439,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
+	name: "vendor.oplus.hardware.radio-V1-ndk_platform_odm",
+	stem: "vendor.oplus.hardware.radio-V1-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7778,8 +7777,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1_odm",
-	stem: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
+	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
 	owner: "oplus",
 	strip: {
 		none: true,

@@ -699,7 +699,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
-    vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.radio-V1-ndk_platform_odm \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -715,7 +715,7 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
-    android.hardware.keymaster-V3-ndk_platform_odm \
+    android.hardware.keymaster-V3-ndk_platform \
     lib_aurisys_lvimfs \
     libnxprecord \
     libnxpsmartpaparser \
@@ -754,7 +754,7 @@ PRODUCT_PACKAGES += \
     libneuron_runtime_odm \
     libormshalclient \
     oplus.sensors.ssc \
-    vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1 \
     vendor.oplus.hardware.commondcs@1.0_odm \
     vendor.oplus.hardware.engineer@1.0 \
     vendor.oplus.hardware.subsys-V1-ndk_platform \
