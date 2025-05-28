@@ -179,7 +179,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/odm/lib/libdav1d.so.4"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdav1d.4.so.4"],
+			srcs: ["proprietary/odm/lib64/libdav1d.so.4"],
 		},
 	},
 	compile_multilib: "both",
