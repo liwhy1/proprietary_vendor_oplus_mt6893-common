@@ -445,7 +445,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.osense.client_odm",
+	name: "vendor.oplus.hardware.osense.client@1.0_odm",
+	stem: "vendor.oplus.hardware.osense.client@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -464,7 +465,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.osense.client_system",
+	name: "vendor.oplus.hardware.osense.client@1.0_system",
+	stem: "vendor.oplus.hardware.osense.client@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -3209,6 +3211,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libneuron_graph_delegate.mtk_vendor",
+	stem: "libneuron_graph_delegate.mtk",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7038,7 +7041,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.keymaster-V3-ndk_platform",
+	name: "android.hardware.keymaster-V3-ndk_platform_odm",
+	stem: "android.hardware.keymaster-V3-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,

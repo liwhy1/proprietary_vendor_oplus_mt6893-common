@@ -715,7 +715,7 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
-    android.hardware.keymaster-V3-ndk_platform \
+    android.hardware.keymaster-V3-ndk_platform_odm \
     lib_aurisys_lvimfs \
     libnxprecord \
     libnxpsmartpaparser \
@@ -862,8 +862,8 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.olc@2.0-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor.oplus.hardware.performance@1.0-service \
-    vendor.oplus.hardware.osense.client_odm \
-    vendor.oplus.hardware.osense.client_system
+    vendor.oplus.hardware.osense.client@1.0_odm \
+    vendor.oplus.hardware.osense.client@1.0_system
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libGLES_mali_symlink32 \
