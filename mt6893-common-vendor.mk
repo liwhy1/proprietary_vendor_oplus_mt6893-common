@@ -913,7 +913,7 @@ PRODUCT_PACKAGES += \
     libavformat \
     libavutil \
     libbsproxy \
-    libdav1d.4 \
+    libdav1d \
     libdla_loader \
     libdla_loader_ins \
     libdpservice \

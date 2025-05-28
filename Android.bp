@@ -169,17 +169,17 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdav1d.4",
+	name: "libdav1d",
 	owner: "oplus",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/odm/lib/libdav1d.4.so"],
+			srcs: ["proprietary/odm/lib/libdav1d.so.4"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdav1d.4.so"],
+			srcs: ["proprietary/odm/lib64/libdav1d.4.so.4"],
 		},
 	},
 	compile_multilib: "both",
