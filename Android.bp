@@ -112,6 +112,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdpservice",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libdpservice.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libdpservice.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libdav1d",
 	owner: "oplus",
 	strip: {
