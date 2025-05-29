@@ -754,7 +754,7 @@ PRODUCT_PACKAGES += \
     libneuron_runtime_odm \
     libormshalclient \
     oplus.sensors.ssc \
-    vendor.oplus.hardware.biometrics.fingerprint@2.1 \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.commondcs@1.0_odm \
     vendor.oplus.hardware.engineer@1.0 \
     vendor.oplus.hardware.subsys-V1-ndk_platform \

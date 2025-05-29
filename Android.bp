@@ -7781,7 +7781,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
+	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1_odm",
+	stem: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
 	owner: "oplus",
 	strip: {
 		none: true,
