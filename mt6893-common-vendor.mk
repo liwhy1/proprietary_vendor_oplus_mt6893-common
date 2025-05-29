@@ -908,21 +908,8 @@ PRODUCT_PACKAGES += \
     libpn553_fw \
     libpn557_fw \
     libsn100u_fw \
-    libavcodec \
-    libavformat \
-    libavutil \
     libbsproxy \
     libdav1d \
     libdla_loader \
     libdla_loader_ins \
-    libdpservice \
-    librpmbengclient \
-    libswresample \
-    libswscale \
-    libaibc_tuning \
-    libaibc_tuning_p2 \
-    libaibc_tuning_p3 \
-    libaidepth_tuning \
-    libcodec2_hidl-mtk@1.1 \
-    libcodec2_hidl-mtk@1.2 \
-    libcodec2_soft_common-mtk
+    libdpservice
