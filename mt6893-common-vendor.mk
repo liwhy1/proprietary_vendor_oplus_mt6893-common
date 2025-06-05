@@ -232,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/oplus/mt6893-common/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
     vendor/oplus/mt6893-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/oplus/mt6893-common/proprietary/system_ext/etc/public.libraries-oplus.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-oplus.txt \
     vendor/oplus/mt6893-common/proprietary/vendor/data/model/scene_detection.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/scene_detection.dla \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/.tp/.thermal_policy_08:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_08 \
@@ -505,7 +504,7 @@ PRODUCT_PACKAGES += \
     libmsnr \
     libmtcloader \
     libneuroeara \
-    libneuron_graph_delegate.mtk_vendor \
+    libneuron_graph_delegate.mtk \
     libneuron_wrapper \
     libneuropilot_hal_utils \
     libnvram \
@@ -588,7 +587,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
-    vendor.oplus.hardware.commondcs@1.0_vendor \
+    vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.performance@1.0 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
@@ -698,7 +697,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
-    vendor.oplus.hardware.radio-V1-ndk_platform_odm \
+    vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -860,9 +859,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.charger@1.0-service \
     vendor.oplus.hardware.olc@2.0-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
-    vendor.oplus.hardware.performance@1.0-service \
-    vendor.oplus.hardware.osense.client@1.0_odm \
-    vendor.oplus.hardware.osense.client@1.0_system
+    vendor.oplus.hardware.performance@1.0-service
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libGLES_mali_symlink32 \
@@ -902,14 +899,4 @@ PRODUCT_PACKAGES += \
     libneuron_runtime.5_libneuron_runtime.5_symlink64 \
     libneuron_runtime_ibneuron_runtime_symlink64 \
     libnir_neon_driver_libnir_neon_driver_symlink64 \
-    libpq_prot_libpq_prot_symlink64 \
-    libffmpeg_omx \
-    libffmpeg_utils \
-    libpn553_fw \
-    libpn557_fw \
-    libsn100u_fw \
-    libbsproxy \
-    libdav1d \
-    libdla_loader \
-    libdla_loader_ins \
-    libdpservice
+    libpq_prot_libpq_prot_symlink64
