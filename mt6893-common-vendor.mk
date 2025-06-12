@@ -504,7 +504,7 @@ PRODUCT_PACKAGES += \
     libmsnr \
     libmtcloader \
     libneuroeara \
-    libneuron_graph_delegate.mtk \
+    libneuron_graph_delegate.mtk_vendor \
     libneuron_wrapper \
     libneuropilot_hal_utils \
     libnvram \
@@ -587,7 +587,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
-    vendor.oplus.hardware.commondcs@1.0 \
+    vendor.oplus.hardware.commondcs@1.0_vendor \
     vendor.oplus.hardware.performance@1.0 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
@@ -697,7 +697,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
-    vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.radio-V1-ndk_platform_odm \
     libcomutils \
     libimsma \
     libimsma_adapt \
@@ -859,7 +859,8 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.charger@1.0-service \
     vendor.oplus.hardware.olc@2.0-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
-    vendor.oplus.hardware.performance@1.0-service
+    vendor.oplus.hardware.performance@1.0-service \
+    vendor.oplus.hardware.osense.client@1.0_odm
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libGLES_mali_symlink32 \
@@ -899,4 +900,14 @@ PRODUCT_PACKAGES += \
     libneuron_runtime.5_libneuron_runtime.5_symlink64 \
     libneuron_runtime_ibneuron_runtime_symlink64 \
     libnir_neon_driver_libnir_neon_driver_symlink64 \
-    libpq_prot_libpq_prot_symlink64
+    libpq_prot_libpq_prot_symlink64 \
+    libffmpeg_omx \
+    libffmpeg_utils \
+    libpn553_fw \
+    libpn557_fw \
+    libsn100u_fw \
+    libbsproxy \
+    libdav1d \
+    libdla_loader \
+    libdla_loader_ins \
+    libdpservice
