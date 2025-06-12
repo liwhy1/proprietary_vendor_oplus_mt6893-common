@@ -8,185 +8,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libffmpeg_omx",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libffmpeg_omx.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libffmpeg_utils",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libffmpeg_utils.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libpn553_fw",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libpn553_fw.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libpn557_fw",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libpn557_fw.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsn100u_fw",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libsn100u_fw.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libbsproxy",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libbsproxy.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libbsproxy.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdpservice",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libdpservice.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdpservice.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdav1d",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libdav1d.so.4"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdav1d.so.4"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdla_loader",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libdla_loader.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdla_loader.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libdla_loader_ins",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libdla_loader_ins.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libem_support_jni",
 	owner: "oplus",
 	strip: {
@@ -198,26 +19,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/lib64/libem_support_jni.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.osense.client@1.0_odm",
-	stem: "vendor.oplus.hardware.osense.client@1.0",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.osense.client@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -2951,8 +2752,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuron_graph_delegate.mtk_vendor",
-	stem: "libneuron_graph_delegate.mtk",
+	name: "libneuron_graph_delegate.mtk",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -4622,7 +4422,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.commondcs@1.0_vendor",
+	name: "vendor.oplus.hardware.commondcs@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -6510,7 +6310,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
+	name: "vendor.oplus.hardware.radio-V1-ndk_platform_vendor",
+	stem: "vendor.oplus.hardware.radio-V1-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7184,8 +6985,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform_odm",
-	stem: "vendor.oplus.hardware.radio-V1-ndk_platform",
+	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -7491,14 +7291,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libormshalclient.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libormshalclient.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	device_specific: true,
